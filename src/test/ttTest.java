@@ -21,10 +21,12 @@ public class ttTest {
     @Test
     public void testAdd() {
         assertEquals(8,mycal.add(2, 6));
+        assertEquals(8,mycal.add(4, 4));
+        assertEquals(11,mycal.add(2, 9));
     }
     @Test
     public void testsubtract() {
-        assertEquals(2,mycal.subtract(4,2));
+        assertEquals(1,mycal.subtract(3,2));
         assertEquals(7,mycal.subtract(9, 2));
     }
     @Test
